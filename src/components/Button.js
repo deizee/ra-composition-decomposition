@@ -1,3 +1,10 @@
+/**
+ * Кастомный компонент кнопки
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+
 const Button = (props) => (
     <button
         className={props.className}

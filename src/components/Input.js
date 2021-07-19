@@ -1,5 +1,12 @@
 import {useState} from "react";
 
+/**
+ * Кастомный компонент input
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+
 const Input = (props) => {
     const [input, setInput] = useState('');
 

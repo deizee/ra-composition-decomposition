@@ -1,5 +1,11 @@
 import Link from "./Link";
 
+/**
+ * Настраиваемый компонент для баннера
+ * @param {*} props
+ * @returns
+ */
+
 const AdsBanner = (props) => {
     return (
         <div className={props.bannerClasses}>

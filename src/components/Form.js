@@ -1,3 +1,10 @@
+/**
+ * Кастомный компонент формы
+ * @param props
+ * @returns {JSX.Element}
+ * @constructor
+ */
+
 const Form = (props) => {
     const onSubmitHandler = (event) => {
         props.onSubmit(event)
